@@ -19,7 +19,7 @@ namespace MyWeb2.Controllers
         {
             _context = context;
         }
-
+        
         // GET: api/Users
         [HttpGet]
         public IEnumerable<User> GetUser()
